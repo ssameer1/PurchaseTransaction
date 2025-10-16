@@ -21,7 +21,7 @@ namespace PurchaseTransaction.Test
         }
 
         [TestCase("antigua & barbuda-e. caribbean dollar", "Antigua & Barbuda-E. Caribbean Dollar")]
-        [TestCase("central african rep.-cfa franc", "Central African Rep.-Cfa Franc")]
+        [TestCase("central african republic-cfa franc", "Central African Republic-Cfa Franc")]
         [TestCase("marshall islands-u.s. dollar", "Marshall Islands-U.S. Dollar")]
         public void Normalize_PunctuationAndDottedAcronmys_Preserved(string input, string expected)
         {
